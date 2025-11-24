@@ -1,9 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { MessageCircle, Instagram, Facebook, MapPin, Phone } from "lucide-react";
+import {
+  MessageCircle,
+  Instagram,
+  Facebook,
+  MapPin,
+  Phone,
+} from "lucide-react";
 
 const Contact = () => {
-  const whatsappMessage = encodeURIComponent("Olá! Encontrei o serviço de vocês pelo google e gostaria de fazer um orçamento.");
+  const whatsappMessage = encodeURIComponent(
+    "Olá! Encontrei o serviço de vocês pelo google e gostaria de fazer um orçamento."
+  );
   const whatsappLink = `https://wa.me/5515998577202?text=${whatsappMessage}`;
 
   return (
@@ -34,7 +42,11 @@ const Contact = () => {
                     Faça seu orçamento agora mesmo pelo WhatsApp
                   </p>
                   <Button asChild className="w-full sm:w-auto">
-                    <a href={whatsappLink} target="_blank" rel="noopener noreferrer">
+                    <a
+                      href={whatsappLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <MessageCircle className="mr-2 h-4 w-4" />
                       (15) 99857-7202
                     </a>
@@ -43,7 +55,10 @@ const Contact = () => {
               </div>
             </Card>
 
-            <Card className="p-8 hover:shadow-lg transition-shadow duration-300 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+            <Card
+              className="p-8 hover:shadow-lg transition-shadow duration-300 animate-fade-in"
+              style={{ animationDelay: "0.1s" }}
+            >
               <div className="flex items-start gap-4 mb-6">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-6 h-6 text-primary" />
@@ -53,8 +68,10 @@ const Contact = () => {
                     Localização
                   </h3>
                   <p className="text-muted-foreground">
-                    Francisco Ortiz Filho, 77<br />
-                    Jardim San Rafael<br />
+                    Francisco Ortiz Filho, 77
+                    <br />
+                    Jardim San Rafael
+                    <br />
                     Salto de Pirapora - SP
                   </p>
                 </div>
@@ -73,9 +90,9 @@ const Contact = () => {
                 asChild
                 className="hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"
               >
-                <a 
-                  href="https://instagram.com/mellocadeiras" 
-                  target="_blank" 
+                <a
+                  href="https://instagram.com/mellocadeiras"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Instagram className="mr-2 h-5 w-5" />
@@ -88,9 +105,9 @@ const Contact = () => {
                 asChild
                 className="hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"
               >
-                <a 
-                  href="https://facebook.com/mellolocacoes" 
-                  target="_blank" 
+                <a
+                  href="https://www.facebook.com/locacoes.mello"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Facebook className="mr-2 h-5 w-5" />
