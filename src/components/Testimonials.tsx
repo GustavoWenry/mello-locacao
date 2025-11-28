@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Maria Silva",
+      name: "Ana Livia",
       event: "Casamento",
       text: "Aluguei as cadeiras e mesas para meu casamento e fiquei encantada! Tudo impecável, limpo e muito bem organizado. A equipe foi super atenciosa e profissional. Recomendo muito!",
       rating: 5,
@@ -22,7 +22,7 @@ const Testimonials = () => {
       rating: 5,
     },
     {
-      name: "Carla Mendes",
+      name: "Thainara Rosa",
       event: "Chá de Bebê",
       text: "Aluguei para o chá de bebê da minha irmã e foi maravilhoso! A tenda protegeu perfeitamente do sol, e as cadeiras eram super confortáveis. Preço justo e qualidade excelente. Muito satisfeita!",
       rating: 5,

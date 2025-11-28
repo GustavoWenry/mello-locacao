@@ -13,11 +13,34 @@ import product6 from "@/assets/product-6.png";
 import product7 from "@/assets/product-7.png";
 import product8 from "@/assets/product-8.png";
 import product9 from "@/assets/product-9.png";
+import product10 from "@/assets/product-10.png";
+import product11 from "@/assets/product-11.png";
+import product12 from "@/assets/product-12.png";
+import product13 from "@/assets/product-13.png";
+import product14 from "@/assets/product-14.png";
+import product15 from "@/assets/product-15.png";
+import product16 from "@/assets/product-16.png";
+import product17 from "@/assets/product-17.png";
 
 const ProductCarousel = () => {
   const products = [
-    product1, product2, product3, product4, product5,
-    product6, product7, product8, product9
+    product1,
+    product2,
+    product3,
+    product4,
+    product5,
+    product6,
+    product7,
+    product8,
+    product9,
+    product10,
+    product11,
+    product12,
+    product13,
+    product14,
+    product15,
+    product16,
+    product17,
   ];
 
   return (
@@ -57,8 +80,8 @@ const ProductCarousel = () => {
                         src={product}
                         alt={`Produto MELLO Locações ${index + 1}`}
                         className="w-full h-full object-contain rounded-lg"
-                        style={{ 
-                          filter: "drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15))"
+                        style={{
+                          filter: "drop-shadow(0 4px 12px rgba(0, 0, 0, 0.15))",
                         }}
                       />
                     </div>
