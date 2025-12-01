@@ -10,19 +10,19 @@ const Testimonials = () => {
       rating: 5,
     },
     {
-      name: "João Santos",
+      name: "Tereza Cristina",
       event: "Churrasco",
       text: "Perfeito para o meu churrasco de família! As mesas e cadeiras chegaram no horário, limpíssimas e de ótima qualidade. O atendimento via WhatsApp foi rápido e eficiente. Com certeza vou alugar novamente!",
       rating: 5,
     },
     {
-      name: "Ana Paula",
+      name: "Mariana Costa",
       event: "Aniversário",
       text: "Contratei para a festa de 15 anos da minha filha e superou minhas expectativas! As toalhas e capas das cadeiras estavam impecáveis. Tudo muito bem cuidado e entregue pontualmente. Adorei o serviço!",
       rating: 5,
     },
     {
-      name: "Thainara Rosa",
+      name: "Paula Rodrigues",
       event: "Chá de Bebê",
       text: "Aluguei para o chá de bebê da minha irmã e foi maravilhoso! A tenda protegeu perfeitamente do sol, e as cadeiras eram super confortáveis. Preço justo e qualidade excelente. Muito satisfeita!",
       rating: 5,
@@ -45,17 +45,17 @@ const Testimonials = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
             {testimonials.map((testimonial, index) => (
-              <Card 
-                key={index} 
+              <Card
+                key={index}
                 className="border-2 hover:shadow-xl transition-all duration-300 animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="pt-6">
                   <div className="flex items-center gap-1 mb-4">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star 
-                        key={i} 
-                        className="w-5 h-5 fill-primary text-primary" 
+                      <Star
+                        key={i}
+                        className="w-5 h-5 fill-primary text-primary"
                       />
                     ))}
                   </div>
